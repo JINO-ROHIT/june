@@ -24,7 +24,7 @@ class Product(Calculator):
 
 class CalculatorTool(Tools):
     tool_name: str = "Calculator"
-    tool_description: str = "A calculator to do all numerical operations."
+    tool_description: str = "A calculator to do addition and multiplcation operations. The function calls are Sum() and Product()"
     tool_input: str = "Return the operation as a function call. Example : Sum(a = 2, b = 2) "
 
     def execute(self, input_text: str) -> float:

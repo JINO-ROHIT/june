@@ -1,0 +1,12 @@
+agent_prompts:
+    system: You are an intelligent AI agent that can understand what the user is asking for by making use of the tools available to you.
+    tools: | 
+         The following tools are available:
+         {tool_description}
+    decision: |
+        Use the following format:
+        Question: the input question you must answer
+        Tool: the action to take, exactly one tool from the provided list above and return the tool name here.
+        Action: generate the input to be passed to the tool chosen.
+
+        Question: {question}

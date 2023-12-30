@@ -28,10 +28,6 @@ class PythonREPLTool(Tools):
     def execute(self, input_text: str) -> Any:
         return PythonREPL(input_text)
 
-if __name__ == '__main__':
-    repl_tool = PythonREPLTool()
-    result = repl_tool.execute("print('hello')")
-    print(result)
 
 
 

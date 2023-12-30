@@ -13,12 +13,3 @@ class Tools(BaseModel):
     @abstractmethod
     def execute(self, input_text: str) -> Any:
         raise AbstractMethodNotImplementedError("Abstract method must be implemented in the subclass")
-
-class Calculator(BaseModel):
-    a: float
-    b: float
-
-    @abstractmethod
-    def result(self) -> float:
-        raise AbstractMethodNotImplementedError("Abstract method must be implemented in the subclass")
-        

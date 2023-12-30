@@ -1,10 +1,7 @@
 from june.tools.schema import Tools
-from june.tools.calculator import CalculatorTool
-from june.tools.python_repl import PythonREPLTool
-from typing import Type, Union, List, Any
+from typing import Type, Union, List
 from colorama import Fore, Style
 from transformers import AutoModelForCausalLM, AutoTokenizer
-import torch
 import yaml
 import os
 import re
@@ -21,7 +18,6 @@ class Agent:
         else:
             self.tools.append(tools)
         
-        #print(self.tools)
     @property
     def tool_help(self):
         tool_info_list = [
@@ -33,7 +29,6 @@ class Agent:
             for tool in self.tools
         ]
         return tool_info_list
-        #return '\n'.join(tool_info_list)
     
     def engine(self, model_name):
         self.tokenizer = AutoTokenizer.from_pretrained(model_name,
@@ -76,13 +71,5 @@ class Agent:
 
         answer = action_executor.execute(action_chosen)
         print(f"{Fore.GREEN} Answer : {answer}.{Style.RESET_ALL}")
-
-    
-
-# agent = Agent()
-# agent.register([CalculatorTool(), PythonREPLTool()])
-# #print(agent.tool_help)
-# agent.engine(model_name = "meta-llama/Llama-2-7b-chat-hf")
-# agent.solve(question = "what is 10 + 10")
 
 

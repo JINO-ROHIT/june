@@ -1,0 +1,101 @@
+accelerate==0.25.0
+annotated-types==0.6.0
+anyio==4.2.0
+asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1698341106958/work
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+beautifulsoup4==4.12.2
+bitsandbytes @ https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.1-py3-none-win_amd64.whl#sha256=adacda9b2b65dcb1931b222dffd7a91f0b611b3410d5b51c37ef7b22654106e6
+cachetools==5.3.2
+certifi==2023.11.17
+charset-normalizer==3.3.2
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+comm @ file:///home/conda/feedstock_root/build_artifacts/comm_1691044910542/work
+debugpy @ file:///C:/b/abs_c0y1fjipt2/croot/debugpy_1690906864587/work
+decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
+distro==1.9.0
+docutils==0.20.1
+exceptiongroup==1.2.0
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1698579936712/work
+filelock==3.13.1
+fsspec==2023.12.2
+google-api-core==2.15.0
+google-api-python-client==2.111.0
+google-auth==2.25.2
+google-auth-httplib2==0.2.0
+google-search-results==2.4.2
+googleapis-common-protos==1.62.0
+h11==0.14.0
+httpcore==1.0.2
+httplib2==0.22.0
+httpx==0.26.0
+huggingface-hub==0.20.1
+idna==3.6
+importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1703269254275/work
+ipykernel @ file:///D:/bld/ipykernel_1703631901958/work
+ipython @ file:///D:/bld/ipython_1680185618122/work
+jaraco.classes==3.3.0
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1696326070614/work
+Jinja2==3.1.2
+jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1699283905679/work
+jupyter_core @ file:///D:/bld/jupyter_core_1669775233774/work
+keyring==24.3.0
+markdown-it-py==3.0.0
+MarkupSafe==2.1.3
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1660814786464/work
+mdurl==0.1.2
+more-itertools==10.1.0
+mpmath==1.3.0
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1697083700168/work
+networkx==3.0
+nh3==0.2.15
+numpy==1.26.2
+openai==1.6.1
+packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1696202382185/work
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1638334955874/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow==9.3.0
+pkginfo==1.9.6
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1702399386289/work
+protobuf==4.25.1
+psutil @ file:///C:/Windows/Temp/abs_b2c2fd7f-9fd5-4756-95ea-8aed74d0039flsd9qufz/croots/recipe/psutil_1656431277748/work
+pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+pyasn1==0.5.1
+pyasn1-modules==0.3.0
+pydantic==1.10.13
+pydantic_core==2.14.6
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1700607939962/work
+pyparsing==3.1.1
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+python-dotenv==1.0.0
+pywin32==227
+pywin32-ctypes==0.2.2
+PyYAML==6.0.1
+pyzmq @ file:///C:/b/abs_655zk4a3s8/croot/pyzmq_1686601465034/work
+readme-renderer==42.0
+regex==2023.12.25
+requests==2.31.0
+requests-toolbelt==1.0.0
+rfc3986==2.0.0
+rich==13.7.0
+rsa==4.9
+safetensors==0.4.1
+scipy==1.11.4
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1620240208055/work
+sniffio==1.3.0
+soupsieve==2.5
+stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
+sympy==1.12
+tokenizers==0.15.0
+torch==2.1.2+cu118
+torchaudio==2.1.2+cu118
+torchvision==0.16.2+cu118
+tornado @ file:///D:/bld/tornado_1656937934674/work
+tqdm==4.66.1
+traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1701095650114/work
+transformers==4.36.2
+twine==4.0.2
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1702176139754/work
+uritemplate==4.1.1
+urllib3==2.1.0
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1700607916581/work
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1695255097490/work

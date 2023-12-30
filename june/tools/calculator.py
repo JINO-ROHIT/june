@@ -1,9 +1,6 @@
-from abc import ABC, abstractmethod
-from typing import Any
-from pydantic import BaseModel
-from june.tools.schema import Tools, Calculator
+from june.tools.schema import Tools
 
-class Sum(Calculator):
+class Sum:
     a: float
     b: float
     
@@ -11,16 +8,13 @@ class Sum(Calculator):
     def result(self) -> float:
         return self.a + self.b
 
-class Product(Calculator):
+class Product:
     a: float
     b: float
     
     @property
     def result(self) -> float:
         return self.a * self.b
-
-# s = Product(a = 3, b = 3)
-# print(s.result)
 
 class CalculatorTool(Tools):
     tool_name: str = "Calculator"
@@ -29,8 +23,3 @@ class CalculatorTool(Tools):
 
     def execute(self, input_text: str) -> float:
         return eval(input_text).result
-
-if __name__ == '__main__':
-    calc_tool = CalculatorTool()
-    result = calc_tool.execute("Product(a = 10, b = 3)")
-    print(result)

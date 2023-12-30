@@ -1,4 +1,6 @@
-from tools import Tools, CalculatorTool, PythonREPLTool
+from june.tools.schema import Tools
+from june.tools.calculator import CalculatorTool
+from june.tools.python_repl import PythonREPLTool
 from typing import Type, Union, List, Any
 from colorama import Fore, Style
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -77,10 +79,10 @@ class Agent:
 
     
 
-agent = Agent()
-agent.register([CalculatorTool(), PythonREPLTool()])
-#print(agent.tool_help)
-agent.engine(model_name = "meta-llama/Llama-2-7b-chat-hf")
-agent.solve(question = "what is 10 + 10")
+# agent = Agent()
+# agent.register([CalculatorTool(), PythonREPLTool()])
+# #print(agent.tool_help)
+# agent.engine(model_name = "meta-llama/Llama-2-7b-chat-hf")
+# agent.solve(question = "what is 10 + 10")
 
 

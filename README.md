@@ -1,11 +1,9 @@
 # June - A LLM Agent
 
-The `ArxivSummarizer` is a Python class designed for summarizing ArXiv documents using Hugging Face's Transformers library. It can be configured with a custom `SummarizationModel` or with pre-trained models based on user preferences.
-
-## Installation[package publish in progress]
-
 ## Overview
 June is a Language Model (LLM) Agent designed to execute actions using custom tools. Using a LLM as the central brain to make decisions, june leverages its power with the tools it has access to make the final decision.
+
+## Installation[package publish in progress]
 
 ## Features
 - Model Compatibility: June supports loading various Hugging Face models seamlessly. Users can specify the LLM's name when calling the agent, providing flexibility and the ability to leverage different models based on their needs.
@@ -90,5 +88,5 @@ June's Output :
 
 ## Examples
 
-You can find more examples in the [exmaples](./examples/) directory.
+You can find more examples in the [examples](./examples/) directory.
 

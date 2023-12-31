@@ -1,4 +1,5 @@
-# June - A LLM Agent
+# June 
+### A LLM Agent 🤖
 
 ## Overview
 June is a Language Model (LLM) Agent designed to execute actions using custom tools. Using a LLM as the central brain to make decisions, june leverages its power with the tools it has access to make the final decision.
@@ -7,7 +8,7 @@ June is a Language Model (LLM) Agent designed to execute actions using custom to
 
 ## Features
 - Model Compatibility: June supports loading various Hugging Face models seamlessly. Users can specify the LLM's name when calling the agent, providing flexibility and the ability to leverage different models based on their needs.
-- Custom Tools: Users can extend June's functionality by creating custom tools by simply inheriting from the Tool base class, allowing for easy integration and expansion of the agent's capabilities.
+- Custom Tools: Users can extend June's functionality by creating custom tools inheriting from the Tool base class, allowing for easy integration and expansion of the agent's capabilities.
 - Strong data validation: June leverages Pydantic for data validation and configuration. Pydantic allows for easy definition of data models and automatic validation, making it a powerful tool for handling input data and configurations.
 
 ## Usage

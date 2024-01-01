@@ -6,6 +6,11 @@ June is a Language Model (LLM) Agent designed to execute actions using custom to
 
 ## Installation[package publish in progress]
 
+You can run the examples 
+```bash
+python -m examples.calc
+```
+
 ## Features
 - Model Compatibility: June supports loading various Hugging Face models seamlessly. Users can specify the LLM's name when calling the agent, providing flexibility and the ability to leverage different models based on their needs.
 - Custom Tools: Users can extend June's functionality by creating custom tools inheriting from the Tool base class, allowing for easy integration and expansion of the agent's capabilities.

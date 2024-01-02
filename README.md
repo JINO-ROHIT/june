@@ -4,11 +4,10 @@
 ## Overview
 June is a Language Model (LLM) Agent designed to execute actions using custom tools. Using a LLM as the central brain to make decisions, june leverages its power with the tools it has access to make the final decision.
 
-## Installation[package publish in progress]
+## Installation
 
-You can run the examples 
 ```bash
-python -m examples.calc
+pip install june-llm-agent
 ```
 
 ## Features
